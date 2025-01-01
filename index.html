@@ -4,8 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food app</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+
+    <style>
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --background-color : #12372a;
+    }
+
+    body
+    {
+        background-color: var(--background-color);
+    }
+    
+    header
+    {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        padding: 20px 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a
+    {
+        text-decoration: none;
+        color: white;
+        margin: 0px 40px;
+        font-family: "Sansita Swashed", serif;
+    }
+    nav a:hover
+    {
+        color: rgb(170, 160, 160);
+    }
+    
+    nav
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    header h1
+    {
+        color: white;
+        font-family: Lexend Zetta;
+    }
+
+    </style>
+
+
 </head>
 <body>
-    <h1>kashmeri wazwa</h1>
+
+    <header>
+       <h1>BURGER</h1>
+       <nav>
+        <a href="">Home</a>
+        <a href="">Menu</a>
+        <a href="">About</a>
+        <a href="">Shop</a>
+       </nav> 
+    </header>
+    
 </body>
 </html>
