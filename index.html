@@ -61,6 +61,84 @@
         font-family: Lexend Zetta;
     }
 
+    /* main content styling */
+    main
+    {
+        display: flex;
+        width: 100%;
+        height: 80vh;
+    }
+    .right_container
+    {
+        width: 40%;
+        height: 100%;
+        border: 4px solid greenyellow;
+    }
+    .left_conatiner
+    {
+        width: 60%;
+        height: 100%;
+        border: 2px solid red;
+    }
+
+   
+
+    .left_conatiner
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left_conatiner .title
+    {
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+    .title #main-tag
+    {
+        font-size: 30px;
+        font-family: Lexend Zetta;
+        color: #adbc9f;
+    }
+    .title #sub-tag
+    {
+        font-size: 100px;
+        font-family: Sansita Swashed;
+        align-content: center;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    .title #tagline
+    {
+        font-size: 10px;
+        word-spacing: 10px;
+        font-family: Lexend Zetta;
+        color: #adbc9f;
+    }
+
+
+     /* footer styling */
+     footer
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+    }
+
+    footer div
+    {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(144, 158, 171);
+        border-radius: 50%;
+        margin: 0px 10px;
+    }
+
     </style>
 
 
@@ -76,6 +154,23 @@
         <a href="">Shop</a>
        </nav> 
     </header>
+
+    <main>
+        <div class="left_conatiner">
+            <div class="title">
+                <p id="main-tag">THE ULTIMATE</p>
+                <p id="sub-tag">Burger Club</p>
+                <p id="tagline">Savor the Flavor, Join the Club!</p>
+            </div>
+        </div>
+        <div class="right_container"></div>
+    </main>
+
+    <footer>
+        <div></div>
+        <div></div>
+        <div></div>
+    </footer>
     
 </body>
 </html>
